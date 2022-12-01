@@ -1,0 +1,242 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(img/sfondo.png);  
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+}
+
+ul{
+    margin-left: 40px;
+}
+ol{
+    margin-left: 40px;
+}
+
+/* header */
+
+header{
+    text-align: center;
+    background: rgb(9,72,73);
+    background: linear-gradient(0deg, rgba(9,72,73,1) 0%, rgba(102,207,235,1) 100%);
+    box-shadow: 2px 5px 5px #343333;
+    margin: 20px 20px;
+}
+
+
+figure>img{
+    width: 200px;
+    padding-top:40px ;
+
+}
+
+figcaption{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+/* menù di navigazione */
+
+nav>ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 40px;
+   
+}
+
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav>ul>li::before{
+    content: "⇒" ;
+    color: white;
+}
+nav>ul>li::after{
+    content: "⟸" ;
+    color: white;
+}
+
+/* corpo */
+
+/* parte 1 */
+main{
+    background-color: white;
+    margin: 20px 20px;
+    box-shadow: 2px 2px 5px #888888;
+    padding: 10px;
+}
+
+#didascalia{
+    color: gray;
+    line-height: 50px;
+}
+.testocolorato{
+    color: violet;
+    display: inline;
+}
+/* parte 2 */
+
+#titololista{
+    line-height: 50px;
+}
+
+/* parte 3 */
+
+.paragrafolista{
+    margin: 15px 0px;
+    line-height: 25px;
+}
+
+/* parte 4 */
+
+caption{
+    font-style: italic;
+    font-weight: bold;
+}
+/* table */
+#tabella{
+    justify-content: center;
+}
+table{
+    margin: 0 auto;
+    border-bottom: 1px solid orange;
+    width:80%;
+}
+
+tr{
+    border: 1px solid grey;
+    /* height: 40px; */
+}
+
+.riga-1{
+    background-color: rgb(74,107,193)
+}
+
+.rigacolorata{
+    background-color: aquamarine;
+}
+
+tr.riga-1>td{
+    box-sizing: border-box;
+    /* height: 60px;
+    width: 20px; */
+    padding-top: 20px;
+}
+/* tr.riga-1>td:last-child{
+    width: 20px;
+} */
+
+tr>td{
+    padding: 10px;
+}
+
+/* parte 5 */
+
+#video{
+    text-align: center;
+}
+
+
+iframe{
+    margin-right: 40px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    width: 450px;
+}
+
+
+/* parte 6 */
+#mail{
+    background-color: lightgrey;
+}
+
+.paragrafomail{
+    margin: 15px 20px;
+    line-height: 25px;
+}
+#barramail{
+    margin-left: 15px;
+    margin-bottom: 10px;  
+    width: 80%;
+    height: 30px;
+    border-bottom: dotted ;
+    border-top: none;
+    border-left: none;
+    font-size: 20px;
+}
+#buttoniscriviti{
+    background-color: rgb(74,107,193) ;
+    height: 30px;
+    display: inline;
+    font-size: 15px;
+    color: white;
+}
+
+/* articoli correlati */
+.boxarticoli{
+    background-color: lightgray;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+.linkarticoli{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.data{
+    padding-left: 70%;
+    padding-top: 40px; 
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background: rgb(9,72,73);
+    background: linear-gradient(0deg, rgba(9,72,73,1) 0%, rgba(102,207,235,1) 100%);
+    box-shadow: 2px 5px 5px #343333;
+    margin: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+    height: 200px;
+}
+
+#copyright{
+    line-height: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+#info{
+    line-height: 20px;
+    font-size: 20px;
+    color: white;
+    margin: 20px 20px;
+}
+
+#coloremail{
+    color: fuchsia;
+}
